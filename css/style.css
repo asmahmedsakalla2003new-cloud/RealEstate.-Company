@@ -1,0 +1,909 @@
+:root{
+    --main-blue:rgb(83, 172, 255);
+    --dark: #212529;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.width{
+    width: 85%;
+    max-width: 100%;
+}
+.bg-prima{
+    background-color:var(--main-blue);
+}
+.bg-secou{
+    background-color: #333;
+}
+.body1{
+    padding: 20px;
+    font-family: "inter";
+}
+.nav1{
+    border-radius:10px;
+    padding: 10px;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 500;
+}
+.custom-blue{
+    color:var(--main-blue);
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus ,.navbar-toggler:active  {
+    box-shadow: 0 0 0 2px var(--main-blue);
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(42, 152, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+.active2{
+    color: var(--main-blue) !important;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 15px;
+}
+.active2::before {
+    content: "";
+    position: absolute;
+    bottom: 0; 
+    left: 50%; 
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    transform: translateX(-50%); 
+    background-color: var(--main-blue);
+}
+
+@media (max-width:991px) {
+    .active2::before {
+        width: 100%;    
+        height: 3px;      
+        border-radius: 0; 
+        bottom: 5px;    
+    }
+
+
+}
+@media (max-width:768px) {
+    .custom-col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;   
+}
+}
+.custom-nav-links{
+    font-size: 18px;
+}
+.custom-nav-links .nav-link{
+    color:aliceblue;
+}
+
+.btn-search-icon {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px; 
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.btn-custom{
+    background-color: var(--main-blue);
+    color: #fff;
+    border-radius: 14px;
+    padding: 5px 20px;
+    width: 100px;
+    font-size: 18px;
+}
+.btn-custom:hover{
+    background-color: transparent !important;
+    color: var(--main-blue);
+    border: 1px solid var(--main-blue) !important;
+}
+.row1{
+    background-color: aquamarine;
+}
+.custom-col{
+    line-height: 1.8;
+}
+.custom-col h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.custom-col h1 span{
+    font-size: 40px;
+}
+.custom-col p{
+    line-height: 1.5;
+} 
+.tabs-style{
+    width:400px;
+    display: block;
+}
+.tabs-style div{
+    width: 100px;
+    font-size: 20px;
+    margin-right: 50px;
+    text-align: center;
+}
+.tabs-style div.activa2{
+    color:var(--main-blue);
+    border-bottom: 3px solid var(--main-blue);
+}
+
+/*00*/
+.btn-custom2{
+    background-color: var(--main-blue);
+    color: #fff;
+    border-radius: 14px;
+    padding: 5px 20px;
+    width: auto;
+    font-size: 18px;
+}
+.btn-custom2:hover{
+    background-color:transparent !important;
+    color: var(--main-blue);
+    border: 1px solid var(--main-blue) !important;
+}
+.form-select {
+        cursor: pointer;
+        font-weight: 600;
+        color: #333;
+    }
+
+.custom-tab {
+        border: none !important;
+        color: #6c757d !important;
+        font-weight: 500;
+        padding: 10px 25px !important;
+        background-color: transparent !important;
+    }
+
+.custom-tab.active2 {
+        color: #0d6efd !important;
+        border-bottom: 3px solid #0d6efd !important;
+    }
+    @media (max-width: 768px) {
+        .tabs-style{
+            width: 100%;
+        }
+        .border-end { 
+            border-end: none !important; border-bottom: 1px solid #dee2e6; padding-bottom: 10px; }
+    }
+  
+.border-radius{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius:8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.action-btn-wrapper {
+    position: absolute;
+    top: 88px; 
+    right:-10px; 
+    background-color:#212529; 
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius:20px;
+    z-index: 10;
+}
+
+.background-image-custom-one{
+    background-image: url(../images/house-vs-home_0_1200.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:8px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 8px;
+    height:150px;
+    width: 100%;
+    padding: 0;
+    margin-top:-10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+   isolation: isolate;
+}
+.before-after-image{
+    position: relative;
+    z-index: 1;
+}
+.before-after-image::after {
+    position: absolute;
+    content: "";
+    top: -20px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: rgba(165, 207, 247, 0.774);
+   z-index: -1;
+
+}
+.before-after-image::before {
+    position: absolute;
+    content: "";
+    top: -30px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 90%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: rgba(45, 154, 255, 0.719);
+   z-index: -2;
+
+}
+.before-after-image-secound{
+    position: relative;
+    z-index: 1;
+}
+.before-after-image-secound::after {
+    position: absolute;
+    content: "";
+    top: -20px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: rgba(65, 64, 64, 0.918);
+   z-index: -1;
+
+}
+.before-after-image-secound::before {
+    position: absolute;
+    content: "";
+    top: -28px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 88%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: rgba(88, 88, 88, 0.719);
+   z-index: -2;
+
+}
+.background-image-custom-two{
+    background-image: url(../images/images.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:8px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 8px;
+    height: 150px;
+    width: 100%;
+    padding: 0;
+    margin-top:-10px;
+}
+.background-image-custom-three{
+        background-image: url(../images/Key-Visual_Flexible-Office_Frankfurt_WiesenhC3BCttenplatz.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:8px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 8px;
+    height: 150px;
+    width: 100%;
+    padding: 0;
+    margin-top:-10px;
+}
+
+.btn-cutout {
+    position: absolute;
+    top: -38px;
+    right: 0;
+    width: 38px;
+    height: 40px;
+    background: transparent;
+    border-bottom-right-radius: 100px;
+    box-shadow: 10px 10px 0 0 var(--dark); 
+    z-index: -999;
+}
+.action-btn-wrapper::before {
+    content: "";
+    position: absolute;
+    left: -33px;
+    bottom: 0;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border-bottom-right-radius: 50px;
+    box-shadow: 10px 10px 0 0 var(--dark); 
+    z-index: 11;
+}
+.before-p {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.before-p::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: #0d6efd;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -30px;
+    z-index: 1;
+}
+
+.hero-visual-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    z-index: 1;
+}
+.isolated-portrait {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 5;
+}
+.div-image {
+
+    min-height: 450px; 
+}
+
+.image-custom {
+    max-width: 100%;
+    object-fit: cover;
+    align-self: flex-end; 
+}
+
+
+
+.floating-icon-card {
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    z-index: 10;
+    width: 12vw;
+    height: 12vw;
+    max-width: 110px;
+    max-height: 110px;
+    min-width: 80px;
+    min-height: 80px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08) !important;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    transition: transform 0.3s ease;
+
+}
+
+/* الشاشات الكبيرة: الخطوط عمودية بين العناصر */
+@media (min-width: 768px) {
+    .border-custom {
+        border-left: 1px solid #dee2e6;
+        padding-left: 20px;
+        margin-left: 10px;
+    }
+}
+
+/* الشاشات الصغيرة: العناصر فوق بعضها */
+@media (max-width: 767px) {
+    .border-custom {
+        border-top: 1px solid #dee2e6; 
+        padding-top: 20px;
+        width: 50%; 
+       
+    }
+}
+
+
+.floating-icon-card:hover {
+    transform: scale(1.05); 
+}
+
+.icon-circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.icon-circle i {
+    color: white;
+    font-size:1.2rem;
+
+}
+.star-shadow-wrapper {
+    filter: drop-shadow(-7px 0 5px rgba(56, 56, 56, 0.432));
+    display: inline-flex;
+}
+
+.star-shape {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+
+.star-shape svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.star-shape i {
+    position: relative;
+    z-index: 2;
+    color: white !important;
+    font-size: 0.85rem;
+    margin-top: 1px; 
+}
+
+.icon-label {
+    font-size: 0.5rem;
+    margin-top: 5px;
+}
+.floating-icon-card:hover .star-shape {
+    transform: rotate(15deg); 
+}
+
+.bg-blue { background-color: #0d6efd; }
+.bg-black { background-color: #1a1a1a; }
+
+.icon-label {
+    font-size: 0.8rem;
+    font-weight:500;
+    text-align: center;
+    line-height: 1.2;
+}
+.icons{
+    font-size: 1rem;
+    box-shadow: -7px 0 10px 1px #a9ccff;
+}
+.icons2{
+      font-size: 1rem;
+}
+.icon-top-left {
+    top: 5%;
+    left: -5%;
+}
+
+.icon-mid-right {
+    top: 55%;
+    right: -5%;
+    width: 150px !important;
+    height: 100px !important;
+    
+}
+
+@media (max-width: 991px) {
+    .hero-visual-wrapper {
+        max-width: 400px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .floating-icon-card {
+        width: 85px;
+        height: 85px;
+    }
+    
+    .icon-top-left {
+        left: 10px;
+    }
+    
+    .icon-mid-right {
+        right:10px;
+    }
+
+    .icon-circle {
+        width: 35px;
+        height: 35px;
+    }
+
+    .icon-label {
+        font-size:0.8rem;
+    }
+}
+.custom-icon{
+    background-color: #ff9f9f;
+    color: var(--main-blue);
+    font-size: 1.2rem;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards2 .cards{
+    height: 100%;
+}
+.margin{
+    margin-top: -10px;
+}
+.cardy div{
+margin-bottom:5px !important;
+padding: 0 !important;
+}
+.width2{
+    width: 470px;
+}
+/* 1. تنسيق الحاوية لكل إحصائية */
+.stats-item {
+  padding: 0 40px; /* مسافة جانبية ليعطي مساحة للخط */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative; /* ضروري لعمل الخط الفاصل */
+}
+
+/* 2. التنسيق الموحد للخط الفاصل */
+.border-start-custom::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10%;      /* يبدأ بعد مسافة 20% من الأعلى */
+  height:100%;   /* يغطي 60% من الارتفاع (ليكون أقصر من النص) */
+  width: 2px;    /* سمك رفيع جداً كما في الصورة */
+  background-color: #dee2e6; /* لون رمادي فاتح (ظاهر بوضوح على الأبيض) */
+}
+
+/* 3. تنسيق الأرقام (تأكدي من توحيد الحجم) */
+.display-5 {
+  font-size: 2.8rem !important; /* حجم متناسق مع الصورة */
+  letter-spacing: -1px;
+}
+
+.custom-blue {
+  color: #007bff;
+}
+  .store-btn {
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    min-width: 160px;
+    text-decoration: none !important;
+  }
+  .store-btn:hover {
+    transform: translateY(-2px);
+    background-color: #000 !important;
+  }
+  .leading-tight {
+    line-height: 1.1;
+  }
+  .width3{
+    width: 350px;
+  }
+
+/* Swiper Container Configuration */
+.mySwiper {
+  width: 100%;
+  padding: 80px 0 !important; 
+  overflow: hidden !important; 
+  box-sizing: border-box;
+}
+
+.swiper-slide {
+  width: 85%; 
+  max-width: 350px; 
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+
+.testimonial-card {
+  background: #464646 !important; 
+  border-radius: 10px;
+  min-height: 200px;
+  width: 100%;
+  opacity: 0.5;
+  transform: scale(0.8); 
+  transition: all 0.6s ease;
+  color: white;
+  filter: none !important; 
+}
+
+.swiper-slide-active .testimonial-card {
+  background: #464646 !important; 
+  transform: translateY(-40px) !important; 
+  opacity: 1 !important; 
+  z-index: 10;
+}
+
+.nav-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: #333;
+  color: white;
+  transition: 0.3s;
+}
+
+.active-btn {
+  background: #0d6efd;
+}
+
+.avatar-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.margin2{
+    margin-top: -10px;
+}
+
+@media (min-width: 768px) {
+  .swiper-slide {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .swiper-slide {
+    width: 40%;
+  }
+}
+.swiper-container {
+  overflow: visible !important;
+}
+
+.swiper-slide {
+  position: relative;
+  z-index: 1;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+
+.swiper-slide:not(.swiper-slide-active) {
+  opacity: 0.5;
+  transform: scale(0.85);
+  z-index: 5;
+}
+
+
+.swiper-slide-active {
+  z-index: 10;
+  transform: scale(1.1) translateY(-20px); 
+  opacity: 1;
+}
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none !important;
+}
+.item .card {
+  width: 100%;
+  height: 100%;
+  padding: 0; 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden; 
+  background-color: #fff; 
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  object-position: center; 
+  display: block;
+}
+.slider {
+  width: 100%;
+  height: var(--height);
+  overflow: hidden;
+
+}
+.slider .list {
+  display: flex;
+  width: 100%;
+  min-width: calc(var(--width) * var(--quantity));
+  position: relative;
+}
+.slider .list .item {
+  width: var(--width);
+  height: var(--height);
+  position: absolute;
+  left: 100%;
+  animation: autoRun 30s linear infinite;
+  transition: filter 0.5s;
+  animation-delay: calc(
+    (30s / var(--quantity)) * (var(--position) - 1) - 30s
+  ) !important;
+}
+
+@keyframes autoRun {
+  from {
+    left: 100%;
+  }
+  to {
+    left: calc(var(--width) * -1);
+  }
+}
+.slider:hover .item {
+  animation-play-state: paused !important;
+  filter: grayscale(1);
+}
+.slider .item:hover {
+  filter: grayscale(0);
+}
+
+/* إلغاء الستايل الافتراضي عند الفتح */
+#faqAccordion .accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: #212529 !important;
+    box-shadow: none !important;
+}
+
+/* إلغاء الظل عند الضغط (Focus) */
+#faqAccordion .accordion-button:focus {
+    box-shadow: none !important;
+}
+
+/* تخصيص المسافات والخطوط */
+#faqAccordion .accordion-item {
+    border-bottom: 1px solid #eee !important; /* خط خفيف تحت كل سؤال */
+}
+
+#faqAccordion .accordion-button {
+    padding: 1.5rem 0 !important; /* مسافة عمودية مريحة للعناوين */
+    font-size: 1.05rem;
+    color: #333;
+}
+
+#faqAccordion .accordion-body {
+    padding: 0 0 1.5rem 0 !important; /* مسافة تحت نص الإجابة */
+    line-height: 1.6;
+}
+
+/* جعل السهم أصغر وأبسط */
+#faqAccordion .accordion-button::after {
+    background-size: 0.8rem;
+    filter: grayscale(1); /* ليكون لونه رمادي هادئ */
+}
+/* إزالة الحشو الجانبي لجعل النص بمحاذاة الحافة */
+.accordion-flush .accordion-button {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    background-color: transparent !important;
+}
+
+.accordion-flush .accordion-body {
+    padding-left: 0 !important;
+}
+
+/* إزالة اللون الأزرق والظل عند فتح السؤال */
+.accordion-button:not(.collapsed) {
+    color: #212529 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+/* تخصيص المسافة في الشاشات الكبيرة فقط */
+@media (min-width: 768px) {
+    .ps-md-5 {
+        padding-left: 5rem !important;
+    }
+}
+
+
+/* تخصيص اللون الأزرق ليكون مطابقاً للصورة */
+.newsletter-box {
+    background: linear-gradient(135deg, #0d6efd 0%, #0099ff 100%);
+    border: none;
+}
+
+/* تنسيق حقل الإدخال لإزالة الإطارات الافتراضية */
+.subscription-form .form-control {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.subscription-form .form-control::placeholder {
+    color: #adb5bd;
+}
+
+/* تأثير بسيط عند تمرير الماوس على الزر */
+.subscription-form .btn-dark:hover {
+    background-color: #222;
+    transform: translateY(-1px);
+    transition: all 0.3s ease;
+}
+
+/* لجعل الزوايا أكثر نعومة في الجوال */
+.rounded-4 {
+    border-radius: 1.5rem !important;
+}
+footer{
+    margin-top: 150px;
+}
+.newsletter-box {
+    background: linear-gradient(135deg, #0d6efd 0%, #0099ff 100%);
+    border: none;
+    margin-top: -200px; /* يرتفع فوق مساحة الـ Footer */
+    position: relative;
+    z-index: 10;
+    height: 100%;
+}
+
+/* تنسيق حقل الإدخال */
+.subscription-form .form-control {
+    font-size: 0.95rem;
+    color: #666;
+    width: 75%;
+}
+
+.subscription-form .form-control::placeholder {
+    color: #adb5bd;
+}
+
+
+.subscription-form .btn-dark:hover {
+    background-color: #222;
+    transform: translateY(-1px);
+    transition: all 0.3s ease;
+}
+
+/* لجعل الزوايا أكثر نعومة في الجوال */
+.rounded-4 {
+    border-radius: 1.5rem !important;
+}
+.social-icon{
+    background-color: #3f3f3f;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #7a7a7a;
+}
+.footer-links a:hover{
+    color: #0d6efd;
+}
