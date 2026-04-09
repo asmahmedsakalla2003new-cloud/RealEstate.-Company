@@ -1,3 +1,4 @@
+
 # Real Estate Portfolio Project 🏠
 
 A modern, high-end, and fully responsive real estate landing page designed for seamless property discovery and management. This project features a professional UI/UX, smooth scroll animations, and interactive elements.
@@ -40,38 +41,46 @@ The project leverages modern web technologies and libraries:
 │   ├── bootstrap.bundle.min.js
 │   └── js1.js               # Custom JavaScript logic
 └── index.html               # Main entry point
+````
 
+-----
+
+## 🔗 Quick Links & Resources
+
+  * **🌐 Live Preview:** [View Demo Here](https://asmahmedsakalla2003new-cloud.github.io/RealEstate.-Company/)
+  * **📂 Documentation:** [GitHub Repo](https://github.com/asmahmedsakalla2003new-cloud/RealEstate.-Company.git)
+  * **🎨 UI Library:** [Bootstrap 5.2 Documentation](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+  * **✨ Animation Library:** [AOS - Animate On Scroll](https://michalsnik.github.io/aos/)
+  * **🎠 Carousel Library:** [Swiper.js](https://swiperjs.com/)
+  * **🔤 Typography:** [Google Fonts (Inter)](https://fonts.google.com/specimen/Inter)
+
+-----
+
+## 🛠 Project Components
+
+You can find the core navigation and footer links within the project:
+
+  * **Navigation:** Home, Properties, Agents, Blog, Contact.
+  * **Footer:** Services, Support, Payment Terms, and Privacy Policy.
+
+-----
 
 ## 📝 Usage Notes
 
-* **🌐 CDN Dependency:** This project requires an active internet connection to load **AOS**, **Swiper**, and **Google Fonts** CDNs.
-* **🎨 Customization:** You can easily change the primary branding color by modifying the `.custom-blue` and `.bg-primary` classes in the CSS.
-* **🖼️ Images:** Ensure your `images/` directory contains the correct filenames as referenced in the HTML (e.g., `house.jpg`, `freepik_0001.png`).
+  * **🌐 CDN Dependency:** This project requires an active internet connection to load **AOS**, **Swiper**, and **Google Fonts** CDNs.
+  * **🎨 Customization:** You can easily change the primary branding color by modifying the `.custom-blue` and `.bg-primary` classes in the CSS.
+  * **🖼️ Images:** Ensure your `images/` directory contains the correct filenames as referenced in the HTML (e.g., `house.jpg`, `freepik_0001.png`).
 
----
+-----
 
 ## 📄 License
 
 > **Copyright © 2023 Real Estate. All Rights Reserved.**
-> 
+>
 > This project is open-source and available for educational purposes.
 
----
-## 🔗 Quick Links & Resources
+-----
 
-* **🌐 Live Preview:** [View Demo Here](https://asmahmedsakalla2003new-cloud.github.io/RealEstate.-Company/) *(https://asmahmedsakalla2003new-cloud.github.io/RealEstate.-Company/)*
-* **📂 Documentation:** [GitHub](https://github.com/asmahmedsakalla2003new-cloud/RealEstate.-Company.git)
-* **🎨 UI Library:** [Bootstrap 5.2 Documentation](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
-* **✨ Animation Library:** [AOS - Animate On Scroll](https://michalsnik.github.io/aos/)
-* **🎠 Carousel Library:** [Swiper.js](https://swiperjs.com/)
-* **🔤 Typography:** [Google Fonts (Inter)](https://fonts.google.com/specimen/Inter)
----
-
-## 🛠 Project Components
-You can find the core navigation and footer links within the project:
-* **Navigation:** Home, Properties, Agents, Blog, Contact.
-* **Footer:** Services, Support, Payment Terms, and Privacy Policy.
-
-<p align="center">
-  Developed with ❤️ by <b>[Asmaa Saqallah]</b>
-</p>
+\<p align="center"\>
+Developed with ❤️ by \<b\>Asmaa Saqallah\</b\>
+\</p\>
